@@ -1,0 +1,92 @@
+:root {
+    --title: #19A7CE;
+    --confirm: #2ea44f;
+    --decline: #E62F00;
+}
+
+.modal-container {
+    height: 200px;
+    width: 500px;
+    text-align: center;
+    text-justify: auto;
+    position: relative;
+    top: 300px;
+    margin: 0 auto;
+    border-radius: 20px;
+    box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+}
+
+.modal-title {
+    text-align: left;
+    padding-top: 25px;
+    margin: 10px 40px 20px;
+    font-size: 18px;
+    font-weight: bold;
+    color: var(--title);
+}
+
+.modal-title-icon {
+    font-size: 25px;
+    margin-right: 10px;
+}
+
+.modal-description {
+    margin: 0px 40px 20px 40px;
+    font-size: 15px;
+    color:grey;
+    text-align: left;
+}
+
+.modal-buttons {
+    text-align: left;
+    margin: 0px 0px 0px 30px;
+    gap: 20px; 
+}
+
+.modal-confirm {
+    height: 35px;
+    width: 100px;
+    border-radius: 15px;
+    margin-right: 20px;
+    background-color: var(--confirm);
+    color: white;
+    border: none;
+    font-size: 20px;
+    cursor: pointer;
+    transition: all 0.4s ease-in-out;
+}
+
+.modal-confirm:hover{
+    opacity: 80%;
+}
+
+.modal-decline {
+    height: 35px;
+    width: 100px;
+    border-radius: 15px;
+    background-color: var(--decline);
+    border: none;
+    color: white;
+    font-size: 20px;
+    cursor: pointer;
+    transition: all 0.4s ease-in-out;
+}
+
+.modal-decline:hover{
+    opacity: 80%;
+}
+
+.modal-cancel {
+    position: absolute;
+    font-size:22px;
+    top: 10px;
+    right: 10px;
+    background-color: transparent;
+    border:none;
+    cursor: pointer;
+    transition: all 0.4s ease-in-out;
+}
+
+.modal-cancel:hover{
+    opacity: 60%;
+}
